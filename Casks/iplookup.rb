@@ -2,7 +2,7 @@
 cask "iplookup" do
   desc "Fast and simple command-line IP address lookup tool"
   homepage "https://github.com/gofika/iplookup"
-  version "0.2.3"
+  version "0.2.4"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "iplookup" do
 
   on_macos do
     on_intel do
-      url "https://github.com/gofika/iplookup/releases/download/v0.2.3/iplookup_0.2.3_darwin_x86_64.tar.gz"
-      sha256 "27d9b5345ad07c3476910d735d9ebf28ba7663d3f07ce102e08369854425cbe3"
+      url "https://github.com/gofika/iplookup/releases/download/v0.2.4/iplookup_0.2.4_darwin_x86_64.tar.gz"
+      sha256 "7eeb12756a7309eb9d8ab27d0271c77b1ee216ba843c6c455dd0bab50fedabf5"
     end
     on_arm do
-      url "https://github.com/gofika/iplookup/releases/download/v0.2.3/iplookup_0.2.3_darwin_arm64.tar.gz"
-      sha256 "c71e1e1d23f24249f19f99535d0c1c89665d93da27092ea1e69c38ee308832f1"
+      url "https://github.com/gofika/iplookup/releases/download/v0.2.4/iplookup_0.2.4_darwin_arm64.tar.gz"
+      sha256 "64a4d3c66eda315a96dc66b6f88eba6b26afc74803ab4cba608d5de222efb79f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/gofika/iplookup/releases/download/v0.2.3/iplookup_0.2.3_linux_x86_64.tar.gz"
-      sha256 "1434eb918b29bf16f484efc0677f413532ba6517c5b6c247cdf720db68bb7199"
+      url "https://github.com/gofika/iplookup/releases/download/v0.2.4/iplookup_0.2.4_linux_x86_64.tar.gz"
+      sha256 "267e1fe943b247409697c26ee0783eb6bcb7b90ee75c74bdb6f108614795cb6c"
     end
     on_arm do
-      url "https://github.com/gofika/iplookup/releases/download/v0.2.3/iplookup_0.2.3_linux_arm64.tar.gz"
-      sha256 "09a4429c9ba1203f5ad398f84764fb0c56af4512361a2ff44f8ad7858ddb2ff3"
+      url "https://github.com/gofika/iplookup/releases/download/v0.2.4/iplookup_0.2.4_linux_arm64.tar.gz"
+      sha256 "417fcc150d72dddd4600b2e5c0310b15897d662e4c6cba91d7a8a93c92662bf1"
     end
   end
 
